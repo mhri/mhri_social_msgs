@@ -1,0 +1,5 @@
+string event_name
+string[] data
+---
+string data
+bool result

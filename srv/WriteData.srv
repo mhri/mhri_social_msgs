@@ -1,0 +1,6 @@
+string event_name
+string event
+string data
+string by
+---
+bool result
