@@ -1,0 +1,8 @@
+# Goal
+string render_msg
+---
+# Result
+bool result
+---
+# Feedback
+bool status
