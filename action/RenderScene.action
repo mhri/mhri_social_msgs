@@ -1,4 +1,4 @@
-string scene
+string render_scene
 ---
 bool result
 ---
