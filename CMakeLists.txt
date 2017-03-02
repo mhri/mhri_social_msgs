@@ -49,6 +49,7 @@ add_message_files(
   RaiseEvents.msg
   Reply.msg
   ScriptStatus.msg
+  LogItem.msg
 )
 
 ## Generate services in the 'srv' folder
