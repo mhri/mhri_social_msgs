@@ -47,6 +47,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   RaiseEvents.msg
+  NotifyEvents.msg
   Reply.msg
   ScriptStatus.msg
   LogItem.msg
