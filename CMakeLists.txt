@@ -47,7 +47,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   RaiseEvents.msg
-  NotifyEvents.msg
+  RaiseEvent.msg
   Reply.msg
   ScriptStatus.msg
   LogItem.msg
@@ -60,6 +60,8 @@ add_service_files(
   ReloadWithResult.srv
   ReadData.srv
   WriteData.srv
+  RegisterData.srv
+  GetDataList.srv
 )
 
 ## Generate actions in the 'action' folder
