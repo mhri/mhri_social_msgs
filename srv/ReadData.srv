@@ -1,5 +1,5 @@
-string event_name
-string[] data
+string perception_name
+string[] query
 ---
 string data
 bool result

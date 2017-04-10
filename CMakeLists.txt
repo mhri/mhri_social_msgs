@@ -46,8 +46,8 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
   FILES
-  RaiseEvents.msg
-  RaiseEvent.msg
+  ForwardingEvent.msg
+  RaisingEvents.msg
   Reply.msg
   ScriptStatus.msg
   LogItem.msg
