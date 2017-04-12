@@ -1,5 +1,0 @@
-string perception_name
-string[] query
----
-string data
-bool result
