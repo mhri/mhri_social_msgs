@@ -6,6 +6,8 @@ project(mhri_social_msgs)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   std_msgs
+  geometry_msgs
+  sensor_msgs
   message_generation
   actionlib_msgs
 )
@@ -47,6 +49,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   RecognizedWord.msg
+  FaceDetection3D.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -63,6 +66,8 @@ add_message_files(
 generate_messages(
   DEPENDENCIES
   actionlib_msgs
+  geometry_msgs
+  sensor_msgs
   std_msgs
 )
 
